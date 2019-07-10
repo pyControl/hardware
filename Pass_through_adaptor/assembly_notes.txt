@@ -1,0 +1,1 @@
+Right angle headers should be epoxied to board for extra strength.

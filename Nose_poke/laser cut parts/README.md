@@ -1,0 +1,1 @@
+Laser cutting files for a single poke (1x) or 10 pokes (10x).  PDF is editable in Adobe Illustrator.  DXF file scale is 1 unit = 1mm.

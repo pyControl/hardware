@@ -1,0 +1,4 @@
+- Easydriver board from sparkfun is mounted on the main board with the header connectors. Male headers are on the Easydriver, female on the main board.
+
+- The 3.3V jumper pads on the EasyDriver board need to be connected with a blob of solder.
+

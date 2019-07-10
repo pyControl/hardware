@@ -1,0 +1,28 @@
+Electronic assembly.
+
+- Board uses 1oz copper.
+
+- The photo-transistor & IR led pair are soldered at a vertical offset from the board using a jig, see photos.
+
+Mechanical assembly.
+
+The poke body is made from 3 laser cut layers (see laser cut parts folder). 
+
+For a mouse poke the parts needed in order from front to back are:
+
+   Part                        Material
+1. poke_front                  2mm black HIPS
+2. poke_middle_small           5mm white acrylic
+3. poke_back                   5mm opal 030 acrylic          
+4. Printed circuit board (PCB)
+
+For a rat poke the parts needed in order from front to back are:
+
+   Part                        Material
+1. poke_front                  1mm stainless steel
+2. poke_middle_large           5mm white acrylic
+3. poke_back                   5mm opal 030 acrylic          
+4. Printed circuit board (PCB)
+
+The panels and PCB are joined together using 2 x 20mm m3 bolts with 3mm spacers between the opal030 acrylic and the PCB.
+
