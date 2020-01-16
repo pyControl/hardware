@@ -17,7 +17,7 @@
 | Power cord 2.1mm male-female 3m                              | Farnell     | 1209177       |
 | 7 port USB 2 hub, D-Link DUB-H7                              | RS          | 760-3993      |
 | **Fluid delivery**                                           |             |               |
-| Solenoid valve (recommended for water only)                  | Lee company | LHDA1231515H  |
+| Solenoid valve (recommended for water only)                  | Lee company | LHDA1231215H  |
 | Solenoid pinch valve (potentially less acurate but shouldn't seize up with sucrose) | Cole-Palmer | WZ-98302-02   |
 | Stainless steel tube for poke, 2mm OD, 1mm ID, 40mm length   | Misumi      | SPLS2-40      |
 | PVC tubing 1.6mm ID                                          | Cole-Palmer | WZ-96480-00   |
