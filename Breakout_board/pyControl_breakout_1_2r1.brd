@@ -173,6 +173,7 @@ Copyright 2018 Thomas Akam</text>
 <text x="130.81" y="41.91" size="2.032" layer="26" rot="MR0">BNC-1</text>
 <text x="147.32" y="41.91" size="2.032" layer="26" rot="MR0">BNC-2</text>
 <text x="177.8" y="41.91" size="2.032" layer="26" rot="MR0">DAC-2</text>
+<circle x="14.2875" y="18.0975" radius="0.254" width="0.4064" layer="22"/>
 </plain>
 <libraries>
 <library name="con-coax">
