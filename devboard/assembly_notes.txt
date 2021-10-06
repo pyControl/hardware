@@ -1,0 +1,5 @@
+- Use 2OZ copper thickness.
+
+- Micropython microcontroller is mounted on the board using the connectors labled PYBOARD_CON in the BOM
+
+- 4x 0805 SMD resistors need to be desoldered from the micropython microcontroller, these are indicated in the file 'pyboard resistors to remove.jpg'.
