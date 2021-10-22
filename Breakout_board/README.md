@@ -2,11 +2,11 @@
 
 **Front**
 
-![front_photo](photo_front.jpg)
+![front_photo](Breakout_board_1_2/photo_front.jpg)
 
 **Back**
 
-![front_photo](photo_back.jpg)
+![front_photo](Breakout_board_1_2/photo_back.jpg)
 
 
 
