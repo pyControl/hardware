@@ -18,14 +18,15 @@
 | 7 port USB 2 hub, D-Link DUB-H7                              | RS          | 760-3993      |
 | **Fluid delivery**                                           |             |               |
 | Solenoid valve (recommended for water only)                  | Lee company | LHDA1231215H  |
-| Solenoid pinch valve (potentially less acurate but shouldn't seize up with sucrose) | Cole-Palmer | WZ-98302-02   |
+| Solenoid pinch valve (potentially less acurate but shouldn't seize up with sucrose).  These valves need softer tubing (e.g. silicone) rather than PVC to work correctly. | VWR         | MFLX98302-02  |
 | Stainless steel tube for poke, 2mm OD, 1mm ID, 40mm length   | Misumi      | SPLS2-40      |
-| PVC tubing 1.6mm ID                                          | Cole-Palmer | WZ-96480-00   |
-| PVC tubing 3mm ID                                            | Cole-Palmer | WZ-96480-01   |
-| T connector 1.6mm                                            | Cole-Palmer | WZ-30703-70   |
-| T connector 3.2mm                                            | Cole-Palmer | WZ-40623-65   |
-| 3.2 to 1.6mm adaptor                                         | Cole-Palmer | WZ-40622-22   |
-| Luer stopcock                                                | Cole-Palmer | WZ-30600-01   |
+| PVC tubing 1.6mm ID.  (PVC tubing is normally preferable to silicone for fluid delivery as silicone is somewhat air permiable which can lead to bubble formation) | VWR         | MFLX96480-00  |
+| PVC tubing 3mm ID                                            | VWR         | MFLX96480-01  |
+| Silicon tubing 1.5mm ID  (should be compaitble with the solenoid pinch valves above). | WVR         | 228-1450P     |
+| T connector 1.6mm                                            | VWR         | MFLX30703-70  |
+| T connector 3.2mm                                            | VWR         | MFLX40623-65  |
+| 3.2 to 1.6mm adaptor                                         | VWR         | MFLX40622-22  |
+| Luer stopcock                                                | VWR         | MFLX30600-01  |
 | **Electrical component**                                     |             |               |
 | 3 LED module white 12V (House light)                         | Farnell     | 1840458       |
 | 1 x 24 pin header (houselight/speaker connector)             | Farnell     | 2356172       |
