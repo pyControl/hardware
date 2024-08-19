@@ -1,0 +1,3 @@
+- 2 layer PTH 1.6mm FR4 2 oz Cu
+
+- Micropython microcontroller is mounted on the board using the connectors labled PYBOARD_CON in the BOM as shown in photo.
