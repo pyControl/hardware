@@ -17,7 +17,7 @@
 | Power cord 2.1mm male-female 3m                              | Farnell     | 1209177       |
 | 7 port USB 2 hub, D-Link DUB-H7                              | RS          | 760-3993      |
 | **Fluid delivery**                                           |             |               |
-| Solenoid valve (recommended for water only)                  | Lee company | LHDA1231215H  |
+| Solenoid valve (recommended for water only)                  | Lee company | LHDB1233518H  |
 | Solenoid pinch valve (potentially less acurate but shouldn't seize up with sucrose).  These valves need softer tubing (e.g. silicone) rather than PVC to work correctly. | VWR         | MFLX98302-02  |
 | Stainless steel tube for poke, 2mm OD, 1mm ID, 40mm length   | Misumi      | SPLS2-40      |
 | PVC tubing 1.6mm ID.  (PVC tubing is normally preferable to silicone for fluid delivery as silicone is somewhat air permiable which can lead to bubble formation) | VWR         | MFLX96480-00  |
