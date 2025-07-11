@@ -8637,7 +8637,7 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="82R"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="90R"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="M0805" value="150R"/>
 <part name="LED" library="led" deviceset="LED" device="SML0805"/>
 <part name="RJ45" library="con-tycoelectronics-vertical_RJ45" deviceset="RJ45" device="VERTICAL" value="RJ45"/>

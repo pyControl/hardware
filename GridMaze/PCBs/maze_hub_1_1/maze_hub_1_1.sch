@@ -8662,6 +8662,98 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Molex_430450210">
+<packages>
+<package name="MOLEX_430450210">
+<wire x1="-5.325" y1="7.7" x2="5.325" y2="7.7" width="0.127" layer="51"/>
+<wire x1="5.325" y1="7.7" x2="5.325" y2="-7.7" width="0.127" layer="51"/>
+<wire x1="5.325" y1="-7.7" x2="-5.325" y2="-7.7" width="0.127" layer="51"/>
+<wire x1="-5.325" y1="-7.7" x2="-5.325" y2="7.7" width="0.127" layer="51"/>
+<wire x1="-6.595" y1="8.97" x2="-6.595" y2="-8.97" width="0.05" layer="39"/>
+<wire x1="-6.595" y1="-8.97" x2="6.595" y2="-8.97" width="0.05" layer="39"/>
+<wire x1="6.595" y1="-8.97" x2="6.595" y2="8.97" width="0.05" layer="39"/>
+<wire x1="6.595" y1="8.97" x2="-6.595" y2="8.97" width="0.05" layer="39"/>
+<rectangle x1="2.0938" y1="-4.0012" x2="5.6762" y2="-2.1988" layer="29"/>
+<rectangle x1="-5.6762" y1="-4.0012" x2="-2.0938" y2="-2.1988" layer="29"/>
+<rectangle x1="-0.7112" y1="0.8338" x2="0.7112" y2="3.9062" layer="29"/>
+<rectangle x1="-0.7112" y1="5.4638" x2="0.7112" y2="8.5362" layer="29"/>
+<text x="-5.52" y="10.93" size="1" layer="25">&gt;NAME</text>
+<text x="-5.52" y="10.53" size="1" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-5.3" y1="-13.26" x2="5.3" y2="-13.26" width="0.127" layer="51"/>
+<text x="5.3" y="-13.26" size="0.7" layer="51">PCB EDGE</text>
+<text x="-4.05" y="-12.6" size="1.016" layer="51" rot="R90">MAX</text>
+<wire x1="-1" y1="7.7" x2="-5.325" y2="7.7" width="0.127" layer="21"/>
+<wire x1="-5.325" y1="7.7" x2="-5.325" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-5.325" y1="-4.3" x2="-5.325" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="-5.325" y1="-7.7" x2="5.325" y2="-7.7" width="0.127" layer="21"/>
+<wire x1="5.325" y1="-7.7" x2="5.325" y2="-4.3" width="0.127" layer="21"/>
+<wire x1="5.325" y1="-1.9" x2="5.325" y2="7.7" width="0.127" layer="21"/>
+<wire x1="5.325" y1="7.7" x2="1" y2="7.7" width="0.127" layer="21"/>
+<rectangle x1="1.625" y1="-1.04" x2="4.075" y2="0.56" layer="41"/>
+<rectangle x1="1.625" y1="-1.04" x2="4.075" y2="0.56" layer="43"/>
+<rectangle x1="-4.075" y1="-1.04" x2="-1.625" y2="0.56" layer="41"/>
+<rectangle x1="-4.075" y1="-1.04" x2="-1.625" y2="0.56" layer="43"/>
+<wire x1="6.31" y1="1.92" x2="6.31" y2="2.72" width="0.127" layer="51"/>
+<wire x1="6.31" y1="2.72" x2="5.61" y2="2.32" width="0.127" layer="51"/>
+<wire x1="5.61" y1="2.32" x2="6.31" y2="1.92" width="0.127" layer="51"/>
+<wire x1="6.31" y1="1.92" x2="6.31" y2="2.72" width="0.127" layer="21"/>
+<wire x1="6.31" y1="2.72" x2="5.61" y2="2.32" width="0.127" layer="21"/>
+<wire x1="5.61" y1="2.32" x2="6.31" y2="1.92" width="0.127" layer="21"/>
+<smd name="S1" x="3.885" y="-3.1" dx="3.43" dy="1.65" layer="1" stop="no"/>
+<smd name="S2" x="-3.885" y="-3.1" dx="3.43" dy="1.65" layer="1" stop="no"/>
+<smd name="1" x="0" y="2.37" dx="1.27" dy="2.92" layer="1" stop="no"/>
+<smd name="2" x="0" y="7" dx="1.27" dy="2.92" layer="1" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="430450210">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-7.62" y1="2.54" x2="-5.715" y2="2.54" width="0.254" layer="94"/>
+<rectangle x1="-6.985" y1="2.2225" x2="-5.3975" y2="2.8575" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.715" y2="2.54" width="0.254" layer="94"/>
+<rectangle x1="5.3975" y1="2.2225" x2="6.985" y2="2.8575" layer="94" rot="R180"/>
+<pin name="1" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="2" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD2" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="430450210" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/43045-0210/Molex/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="430450210" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_430450210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/43045-0210/Molex/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Microfit 3.0 RA SMT/Nail DR 15Au 2 Ckt | Molex Incorporated 43045-0210                                              "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="43045-0210"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/43045-0210/Molex/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8777,6 +8869,9 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="P+23" library="supply1" deviceset="+5V" device=""/>
 <part name="IC5" library="Digital_potentiometers" deviceset="MCP4541-104E/MS" device=""/>
+<part name="J1" library="Molex_430450210" deviceset="430450210" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="P+24" library="supply1" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8786,19 +8881,19 @@ Source: AVX .. aphvc.pdf</description>
 Copyright 2018 Thomas Akam</text>
 </plain>
 <instances>
-<instance part="GND37" gate="1" x="82.55" y="140.97" rot="R90"/>
-<instance part="GND17" gate="1" x="82.55" y="127" rot="R90"/>
+<instance part="GND37" gate="1" x="125.73" y="140.97" rot="R90"/>
+<instance part="GND17" gate="1" x="125.73" y="127" rot="R90"/>
 <instance part="BNC-1" gate="G$1" x="-11.43" y="44.45"/>
 <instance part="BNC-2" gate="G$1" x="-11.43" y="31.75"/>
-<instance part="RESET" gate="1" x="72.39" y="129.54" rot="R270"/>
+<instance part="RESET" gate="1" x="115.57" y="129.54" rot="R270"/>
 <instance part="GND62" gate="1" x="1.27" y="41.91" rot="R90"/>
 <instance part="GND63" gate="1" x="1.27" y="29.21" rot="R90"/>
-<instance part="C1" gate="G$1" x="38.1" y="140.97"/>
-<instance part="C2" gate="G$1" x="7.62" y="140.97"/>
-<instance part="P+2" gate="1" x="7.62" y="151.13"/>
-<instance part="GND2" gate="1" x="7.62" y="130.81"/>
-<instance part="GND3" gate="1" x="22.86" y="130.81"/>
-<instance part="GND4" gate="1" x="38.1" y="130.81"/>
+<instance part="C1" gate="G$1" x="93.98" y="138.43"/>
+<instance part="C2" gate="G$1" x="63.5" y="138.43"/>
+<instance part="P+2" gate="1" x="63.5" y="148.59"/>
+<instance part="GND2" gate="1" x="63.5" y="128.27"/>
+<instance part="GND3" gate="1" x="78.74" y="128.27"/>
+<instance part="GND4" gate="1" x="93.98" y="128.27"/>
 <instance part="GND72" gate="1" x="-10.16" y="63.5" rot="R270"/>
 <instance part="PORT-1" gate="G$1" x="5.08" y="5.08"/>
 <instance part="GND70" gate="1" x="-12.7" y="10.16" rot="R270"/>
@@ -8816,15 +8911,15 @@ Copyright 2018 Thomas Akam</text>
 <instance part="GND10" gate="1" x="86.36" y="10.16" rot="R270"/>
 <instance part="P+14" gate="1" x="86.36" y="-5.08" rot="R90"/>
 <instance part="P+15" gate="1" x="86.36" y="2.54"/>
-<instance part="P+10" gate="1" x="38.1" y="151.13"/>
+<instance part="P+10" gate="1" x="93.98" y="148.59"/>
 <instance part="POW_CON" gate="G$1" x="-17.78" y="140.97" rot="R180"/>
 <instance part="GND15" gate="1" x="-5.08" y="138.43" rot="R90"/>
 <instance part="P+9" gate="1" x="-7.62" y="143.51" rot="R270"/>
 <instance part="GND6" gate="1" x="208.28" y="139.7" rot="R90"/>
 <instance part="GND8" gate="1" x="137.16" y="114.3" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="-35.56" y="-17.78"/>
-<instance part="USR" gate="1" x="72.39" y="143.51" rot="R270"/>
-<instance part="IC1" gate="A1" x="22.86" y="146.05"/>
+<instance part="USR" gate="1" x="115.57" y="143.51" rot="R270"/>
+<instance part="IC1" gate="A1" x="78.74" y="143.51"/>
 <instance part="SV1" gate="G$1" x="35.56" y="40.64" rot="R180"/>
 <instance part="P+4" gate="1" x="22.86" y="30.48" rot="R90"/>
 <instance part="GND14" gate="1" x="19.05" y="33.02" rot="R270"/>
@@ -8872,6 +8967,9 @@ Copyright 2018 Thomas Akam</text>
 <instance part="R5" gate="G$1" x="35.56" y="109.22" rot="R90"/>
 <instance part="P+23" gate="1" x="35.56" y="119.38"/>
 <instance part="IC5" gate="G$1" x="134.62" y="43.18"/>
+<instance part="J1" gate="G$1" x="30.48" y="144.78"/>
+<instance part="GND13" gate="1" x="48.26" y="147.32" rot="R90"/>
+<instance part="P+24" gate="1" x="10.16" y="147.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8879,11 +8977,11 @@ Copyright 2018 Thomas Akam</text>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="12.7" y1="146.05" x2="7.62" y2="146.05" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="146.05" x2="7.62" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="143.51" x2="63.5" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="143.51" x2="63.5" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="143.51" x2="7.62" y2="146.05" width="0.1524" layer="91"/>
-<junction x="7.62" y="146.05"/>
+<wire x1="63.5" y1="140.97" x2="63.5" y2="143.51" width="0.1524" layer="91"/>
+<junction x="63.5" y="143.51"/>
 <pinref part="IC1" gate="A1" pin="VI"/>
 </segment>
 <segment>
@@ -8921,23 +9019,28 @@ Copyright 2018 Thomas Akam</text>
 <pinref part="P+19" gate="1" pin="+12V"/>
 <wire x1="27.178" y1="61.722" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="P+24" gate="1" pin="+12V"/>
+<wire x1="12.7" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="77.47" y1="140.97" x2="80.01" y2="140.97" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="143.51" x2="77.47" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="140.97" x2="123.19" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="143.51" x2="120.65" y2="140.97" width="0.1524" layer="91"/>
 <pinref part="USR" gate="1" pin="S"/>
 <pinref part="USR" gate="1" pin="S1"/>
-<junction x="77.47" y="140.97"/>
+<junction x="120.65" y="140.97"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="77.47" y1="127" x2="80.01" y2="127" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="127" x2="123.19" y2="127" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="1" pin="S1"/>
 <pinref part="RESET" gate="1" pin="S"/>
-<wire x1="77.47" y1="129.54" x2="77.47" y2="127" width="0.1524" layer="91"/>
-<junction x="77.47" y="127"/>
+<wire x1="120.65" y1="129.54" x2="120.65" y2="127" width="0.1524" layer="91"/>
+<junction x="120.65" y="127"/>
 </segment>
 <segment>
 <pinref part="BNC-1" gate="G$1" pin="GND"/>
@@ -8951,13 +9054,13 @@ Copyright 2018 Thomas Akam</text>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="22.86" y1="133.35" x2="22.86" y2="138.43" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="130.81" x2="78.74" y2="135.89" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="38.1" y1="133.35" x2="38.1" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="130.81" x2="93.98" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND72" gate="1" pin="GND"/>
@@ -9007,7 +9110,7 @@ Copyright 2018 Thomas Akam</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="7.62" y1="135.89" x2="7.62" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="133.35" x2="63.5" y2="130.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="7"/>
@@ -9063,11 +9166,16 @@ Copyright 2018 Thomas Akam</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="66.04" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="45.72" y1="147.32" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="67.31" y1="127" x2="62.23" y2="127" width="0.1524" layer="91"/>
-<label x="59.69" y="127" size="1.778" layer="95"/>
+<wire x1="110.49" y1="127" x2="105.41" y2="127" width="0.1524" layer="91"/>
+<label x="102.87" y="127" size="1.778" layer="95"/>
 <pinref part="RESET" gate="1" pin="P1"/>
 </segment>
 <segment>
@@ -9231,10 +9339,10 @@ Copyright 2018 Thomas Akam</text>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="143.51" x2="38.1" y2="146.05" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="146.05" x2="33.02" y2="146.05" width="0.1524" layer="91"/>
-<junction x="38.1" y="146.05"/>
-<wire x1="38.1" y1="146.05" x2="38.1" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="140.97" x2="93.98" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="143.51" x2="88.9" y2="143.51" width="0.1524" layer="91"/>
+<junction x="93.98" y="143.51"/>
+<wire x1="93.98" y1="143.51" x2="93.98" y2="146.05" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <pinref part="IC1" gate="A1" pin="VO"/>
 </segment>
@@ -9461,8 +9569,8 @@ Copyright 2018 Thomas Akam</text>
 </net>
 <net name="USR" class="0">
 <segment>
-<wire x1="67.31" y1="140.97" x2="62.23" y2="140.97" width="0.1524" layer="91"/>
-<label x="59.69" y="140.97" size="1.778" layer="95"/>
+<wire x1="110.49" y1="140.97" x2="105.41" y2="140.97" width="0.1524" layer="91"/>
+<label x="102.87" y="140.97" size="1.778" layer="95"/>
 <pinref part="USR" gate="1" pin="P1"/>
 </segment>
 <segment>
@@ -9737,17 +9845,17 @@ Copyright 2018 Thomas Akam</text>
 </sheets>
 <errors>
 <approved hash="102,1,22.86,66.04,DIODE,+12V,,,,"/>
-<approved hash="104,1,116.84,45.72,IC5,VDD,+3V3,,,"/>
-<approved hash="104,1,116.84,38.1,IC5,VSS,GND,,,"/>
 <approved hash="104,1,180.34,45.72,IC6,V+,+5V,,,"/>
 <approved hash="104,1,180.34,30.48,IC6,V-,GND,,,"/>
 <approved hash="104,1,68.58,104.14,IC3,VCCA,+3V3,,,"/>
 <approved hash="104,1,99.06,104.14,IC3,VCCB,+5V,,,"/>
 <approved hash="104,1,68.58,78.74,IC4,VCCA,+3V3,,,"/>
 <approved hash="104,1,99.06,78.74,IC4,VCCB,+5V,,,"/>
-<approved hash="113,1,72.39,131.691,RESET,,,,,"/>
+<approved hash="104,1,116.84,45.72,IC5,VDD,+3V3,,,"/>
+<approved hash="104,1,116.84,38.1,IC5,VSS,GND,,,"/>
+<approved hash="113,1,115.57,131.691,RESET,,,,,"/>
 <approved hash="113,1,94.511,71.651,FRAME1,,,,,"/>
-<approved hash="113,1,72.39,145.661,USR,,,,,"/>
+<approved hash="113,1,115.57,145.661,USR,,,,,"/>
 <approved hash="113,1,30.5223,37.9053,SV1,,,,,"/>
 </errors>
 </schematic>

@@ -1,3 +1,3 @@
 - 2 layer PTH 1.6mm FR4 1 oz Cu
 
-- The photo-transistor & IR led pair are soldered at a vertical offset from the board using a provided jig as indicated in the photo.
+- The photo-transistor & IR led pair are soldered at a vertical offset from the board using a provided jig (see photos).  Distance from PCB surface to top of IR components is 13mm.
