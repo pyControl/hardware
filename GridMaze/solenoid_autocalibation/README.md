@@ -2,17 +2,19 @@
 
 ![3x3 maze](loadcell_photo.jpg)
 
-We use an automatic calibration system to avoid having to manually calibrate the large number of solenoids on grid maze setups.  This works by mounting the fluid reservoir on a load cell connected to a pyControl [loadcell amplifier](https://github.com/pyControl/hardware/tree/master/Load_cell) board, which is connected to the maze hub board.  This enables the pyboard controlling the maze to measure the weight of the reservoir, and hence determine how much water is released when a solenoid is opened.  The file `load_cell_assembly_BOM` details the components needed to mount the fluid reservoir on the load cell.  The code folder contains a pyControl task file `autocalibration_task.py` which is run on the maze using pyControl, and an analysis module called `autocalibration_script.py` which is used to analyze the data to generate linear fits mapping the desired release volume in uL to the release duration in ms.
+We use an automatic calibration system to avoid having to manually calibrate the large number of solenoids on grid maze setups.  This works by mounting the fluid reservoir on a load cell connected to a pyControl [loadcell amplifier](https://github.com/pyControl/hardware/tree/master/Load_cell) board, which is connected to the maze hub board.  This enables the pyboard controlling the maze to measure the weight of the reservoir, and hence determine how much water is released when a solenoid is opened.  The file `load_cell_assembly_BOM` details the components needed to mount the fluid reservoir on the load cell.  The code folder contains a pyControl task file `autocalibration_task.py` which is run on the maze using pyControl, and an analysis module called `calibrated_release_times.py` which is used to analyze the data to generate linear fits mapping the desired release volume in uL to the release duration in ms.
 
 ##  Autocalibration procedure
 
-1. Upload the task to the maze, enter a subject ID so the data is saved, and run the task.
+1. To obtain accurate measurements with the load cell, it is important to minimise external forces on the reservoir.  Check that the reservoir is not touching the walls of the enclosure or any cables.  To minimise forces on the load cell from the tubing system, ensure there is a section of thin tubing just below the reservoir with an 'S' bend in it to decouple the reservoir mechanically from the rest of the tubing (see photo above).
 
-2. Ensure the reservoir is full.
+2. Upload the task to the maze, enter a subject ID so the data is saved, and run the task.
 
-3. Open the *'Controls'* dialog and trigger the event `tare` to zero the load cell.
+3. Ensure the reservoir is full.
 
-4. Calibrate the load cell using a known calibration weight:
+4. Open the *'Controls'* dialog and trigger the event `tare` to zero the load cell.
+
+5. Calibrate the load cell using a known calibration weight:
 
    i. Get a small object of known weight (e.g. a coin) and place on top of the reservoir.
 
@@ -20,11 +22,13 @@ We use an automatic calibration system to avoid having to manually calibrate the
 
    iii. Remove the object from the reservoir.
 
-5. Trigger the `go` event to start the calibration, the task will cycle through all the solenoids triggering a specified number of releases for each of a set of specified release durations and measuring the weight change of the reservoir.
+6. Trigger the `go` event to start the calibration, the task will cycle through the set of release durations, and through reward ports for each release duration. The task pauses and waits for the 'go' event between different release durations to allow water to be removed from the ports - make sure to do this as otherwise the ports will overflow.  Do not touch the setup while it is measuring to avoid disrupting the measurements.
 
-6. When the calibration process has finished, stop the task and remove the released water from the ports using a syringe.
+7. When the calibration process has finished the task will stop automatically.  Remove the released water from the ports using a syringe.
 
-7. Transfer the pyControl data file to the folder `autocalibration_data`, then run the python script `autocalibration_script.py` to generate the linear fits used for solenoid calibration (see the module docstrings for more information).  The calibration results are saved in the `autocalibration_results` folder as a text file containing a python dict with the slope and intercept of a linear fit for each poke mapping the desired release volume in uL to the release duration in ms.  For the 3x3 mazes these can be saved as a [hardware variable](https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/#special-variables), for the 7x7 mazes storing the solenoid calibration data as a hardware variable can cause out of memory errors and putting the calibration dict directly in the task file or in a device driver class can be preferable.  To use the calibration data to generate the release duration needed for a given reward volume we typically define the following function in the task file:
+8. Transfer the pyControl data file to the folder `autocalibration_data`, then run the python script `autocalibration_script.py` to generate the linear fits used for solenoid calibration (see the module docstrings for more information).  The calibration results are saved in the `autocalibration_results` folder as a text file containing a python dict with the slope and intercept of a linear fit for each poke mapping the desired release volume in uL to the release duration in ms.  Two different linear fits are saved out, one version in which each poke is fitted independently, and one version in which a mixed effects model is fitted to all pokes data, shown as the blue and red lines on the plots respectively. 
+
+9. To use the calibration data in tasks on the 3x3 maze the dictionary generated by the script can be saved as a [hardware variable](https://pycontrol.readthedocs.io/en/latest/user-guide/programming-tasks/#special-variables).   For the 7x7 mazes storing the solenoid calibration data as a hardware variable can cause 'out of memory' errors and it is recommended to put the calibration dict directly in the task file or in a device driver class.  To use the calibration data to generate the release duration needed for a given reward volume we typically define the following function in the task file:
 
    ```python
    def get_reward_duration_ms(reward_volume_ul, current_tower):

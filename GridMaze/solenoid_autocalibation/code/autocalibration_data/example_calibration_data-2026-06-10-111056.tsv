@@ -1,0 +1,1765 @@
+time	type	subtype	content
+0.000	info	experiment_name	run_task
+0.000	info	task_name	maze_calibration\autocalibration\auto_calibration_task_2
+0.000	info	task_file_hash	903656996
+0.000	info	setup_id	LT_small_maze
+0.000	info	framework_version	2.0.2
+0.000	info	micropython_version	1.222
+0.000	info	subject_id	LT_small_maze
+0.000	info	start_time	2026-06-10T10:10:56.754
+0.000	variable	run_start	{"release_weight": null, "calibration_weight": 1, "poke": null, "batch_count": 0, "n_release_per_batch": 4, "times": 6, "pokes_to_calibrate": ["A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3"], "pre_weight": 0, "target_weight": 0.2, "n_release": 0, "release_duration": null, "max_releases": 100, "release_durations": [50, 100, 150, 200]}
+0.000	state		wait_for_go
+2.658	event	user	tare
+7.653	variable	user_set	{"calibration_weight": 6.5}
+29.306	event	user	tare
+32.750	event	user	calibrate
+32.762	print	task	Scale: 13379.88
+38.663	event	user	weigh
+38.664	print	task	6.489817
+43.747	event	user	weigh
+43.748	print	task	0.02780293
+46.642	event	user	go
+46.742	state		calibration_init
+46.742	print	task	Ready to calibrate release duration: 50, press go.
+47.376	event	user	go
+47.376	state		pre_release
+47.481	state		release
+47.531	event	timer	timer_event
+47.581	state		release
+47.631	event	timer	timer_event
+47.681	state		release
+47.731	event	timer	timer_event
+47.781	state		release
+47.831	event	timer	timer_event
+47.835	print	task	-0.004484344
+47.885	state		release
+47.935	event	timer	timer_event
+47.985	state		release
+48.035	event	timer	timer_event
+48.085	state		release
+48.135	event	timer	timer_event
+48.185	state		release
+48.235	event	timer	timer_event
+48.239	print	task	0.01291117
+48.289	state		release
+48.339	event	timer	timer_event
+48.389	state		release
+48.439	event	timer	timer_event
+48.489	state		release
+48.539	event	timer	timer_event
+48.589	state		release
+48.639	event	timer	timer_event
+48.643	print	task	0.05336369
+48.693	state		release
+48.743	event	timer	timer_event
+48.793	state		release
+48.843	event	timer	timer_event
+48.893	state		release
+48.943	event	timer	timer_event
+48.993	state		release
+49.043	event	timer	timer_event
+49.047	print	task	0.09850608
+49.097	state		release
+49.147	event	timer	timer_event
+49.197	state		release
+49.247	event	timer	timer_event
+49.297	state		release
+49.347	event	timer	timer_event
+49.397	state		release
+49.447	event	timer	timer_event
+49.451	print	task	0.1455917
+49.501	state		release
+49.551	event	timer	timer_event
+49.601	state		release
+49.651	event	timer	timer_event
+49.701	state		release
+49.751	event	timer	timer_event
+49.801	state		release
+49.851	event	timer	timer_event
+49.855	print	task	0.1799343
+49.905	state		release
+49.955	event	timer	timer_event
+50.005	state		release
+50.055	event	timer	timer_event
+50.105	state		release
+50.155	event	timer	timer_event
+50.205	state		release
+50.255	event	timer	timer_event
+50.259	print	task	0.218836
+50.359	state		post_release
+50.364	variable	print	{"poke": "A1", "release_duration": 50, "n_release": 28, "release_weight": 0.2396134}
+50.464	state		pre_release
+50.571	state		release
+50.623	event	timer	timer_event
+50.675	state		release
+50.727	event	timer	timer_event
+50.779	state		release
+50.831	event	timer	timer_event
+50.883	state		release
+50.935	event	timer	timer_event
+50.941	print	task	-0.005381212
+50.992	state		release
+51.044	event	timer	timer_event
+51.096	state		release
+51.148	event	timer	timer_event
+51.205	state		release
+51.257	event	timer	timer_event
+51.309	state		release
+51.361	event	timer	timer_event
+51.368	print	task	0.02257119
+51.418	state		release
+51.470	event	timer	timer_event
+51.522	state		release
+51.574	event	timer	timer_event
+51.626	state		release
+51.678	event	timer	timer_event
+51.730	state		release
+51.782	event	timer	timer_event
+51.788	print	task	0.04290022
+51.839	state		release
+51.891	event	timer	timer_event
+51.943	state		release
+51.995	event	timer	timer_event
+52.047	state		release
+52.099	event	timer	timer_event
+52.151	state		release
+52.203	event	timer	timer_event
+52.209	print	task	0.1168919
+52.260	state		release
+52.312	event	timer	timer_event
+52.364	state		release
+52.416	event	timer	timer_event
+52.468	state		release
+52.520	event	timer	timer_event
+52.572	state		release
+52.624	event	timer	timer_event
+52.630	print	task	0.1661262
+52.681	state		release
+52.733	event	timer	timer_event
+52.785	state		release
+52.837	event	timer	timer_event
+52.889	state		release
+52.941	event	timer	timer_event
+52.993	state		release
+53.045	event	timer	timer_event
+53.051	print	task	0.2034397
+53.152	state		post_release
+53.159	variable	print	{"poke": "A2", "release_duration": 50, "n_release": 24, "release_weight": 0.1886414}
+53.259	state		pre_release
+53.366	state		release
+53.418	event	timer	timer_event
+53.470	state		release
+53.522	event	timer	timer_event
+53.574	state		release
+53.626	event	timer	timer_event
+53.678	state		release
+53.730	event	timer	timer_event
+53.736	print	task	0.01195827
+53.787	state		release
+53.839	event	timer	timer_event
+53.891	state		release
+53.943	event	timer	timer_event
+53.995	state		release
+54.047	event	timer	timer_event
+54.099	state		release
+54.151	event	timer	timer_event
+54.157	print	task	0.03583738
+54.208	state		release
+54.260	event	timer	timer_event
+54.312	state		release
+54.364	event	timer	timer_event
+54.416	state		release
+54.468	event	timer	timer_event
+54.520	state		release
+54.572	event	timer	timer_event
+54.578	print	task	0.01150984
+54.629	state		release
+54.681	event	timer	timer_event
+54.733	state		release
+54.785	event	timer	timer_event
+54.837	state		release
+54.889	event	timer	timer_event
+54.941	state		release
+54.993	event	timer	timer_event
+54.999	print	task	0.06248188
+55.050	state		release
+55.102	event	timer	timer_event
+55.154	state		release
+55.206	event	timer	timer_event
+55.258	state		release
+55.310	event	timer	timer_event
+55.362	state		release
+55.414	event	timer	timer_event
+55.420	print	task	0.02974615
+55.471	state		release
+55.523	event	timer	timer_event
+55.575	state		release
+55.627	event	timer	timer_event
+55.679	state		release
+55.731	event	timer	timer_event
+55.783	state		release
+55.835	event	timer	timer_event
+55.841	print	task	0.03482842
+55.892	state		release
+55.944	event	timer	timer_event
+55.996	state		release
+56.048	event	timer	timer_event
+56.100	state		release
+56.155	event	timer	timer_event
+56.207	state		release
+56.259	event	timer	timer_event
+56.265	print	task	0.06083763
+56.316	state		release
+56.368	event	timer	timer_event
+56.420	state		release
+56.472	event	timer	timer_event
+56.524	state		release
+56.576	event	timer	timer_event
+56.628	state		release
+56.680	event	timer	timer_event
+56.686	print	task	0.05426055
+56.737	state		release
+56.789	event	timer	timer_event
+56.841	state		release
+56.893	event	timer	timer_event
+56.945	state		release
+56.997	event	timer	timer_event
+57.049	state		release
+57.101	event	timer	timer_event
+57.107	print	task	0.08684677
+57.158	state		release
+57.210	event	timer	timer_event
+57.262	state		release
+57.314	event	timer	timer_event
+57.366	state		release
+57.418	event	timer	timer_event
+57.470	state		release
+57.522	event	timer	timer_event
+57.528	print	task	0.06113654
+57.579	state		release
+57.631	event	timer	timer_event
+57.683	state		release
+57.735	event	timer	timer_event
+57.787	state		release
+57.839	event	timer	timer_event
+57.891	state		release
+57.943	event	timer	timer_event
+57.949	print	task	0.06861049
+58.000	state		release
+58.052	event	timer	timer_event
+58.104	state		release
+58.156	event	timer	timer_event
+58.208	state		release
+58.260	event	timer	timer_event
+58.312	state		release
+58.364	event	timer	timer_event
+58.370	print	task	0.06636828
+58.421	state		release
+58.473	event	timer	timer_event
+58.525	state		release
+58.577	event	timer	timer_event
+58.629	state		release
+58.681	event	timer	timer_event
+58.733	state		release
+58.785	event	timer	timer_event
+58.791	print	task	0.09626394
+58.842	state		release
+58.894	event	timer	timer_event
+58.946	state		release
+58.998	event	timer	timer_event
+59.050	state		release
+59.102	event	timer	timer_event
+59.154	state		release
+59.206	event	timer	timer_event
+59.212	print	task	0.09816975
+59.263	state		release
+59.315	event	timer	timer_event
+59.367	state		release
+59.419	event	timer	timer_event
+59.471	state		release
+59.523	event	timer	timer_event
+59.575	state		release
+59.627	event	timer	timer_event
+59.633	print	task	0.08191401
+59.684	state		release
+59.736	event	timer	timer_event
+59.788	state		release
+59.840	event	timer	timer_event
+59.892	state		release
+59.944	event	timer	timer_event
+59.996	state		release
+60.048	event	timer	timer_event
+60.054	print	task	0.1088201
+60.105	state		release
+60.157	event	timer	timer_event
+60.209	state		release
+60.261	event	timer	timer_event
+60.313	state		release
+60.365	event	timer	timer_event
+60.417	state		release
+60.469	event	timer	timer_event
+60.475	print	task	0.1008604
+60.526	state		release
+60.578	event	timer	timer_event
+60.630	state		release
+60.682	event	timer	timer_event
+60.734	state		release
+60.786	event	timer	timer_event
+60.838	state		release
+60.890	event	timer	timer_event
+60.896	print	task	0.1170413
+60.947	state		release
+61.002	event	timer	timer_event
+61.055	state		release
+61.107	event	timer	timer_event
+61.159	state		release
+61.211	event	timer	timer_event
+61.263	state		release
+61.315	event	timer	timer_event
+61.321	print	task	0.1233194
+61.372	state		release
+61.424	event	timer	timer_event
+61.476	state		release
+61.528	event	timer	timer_event
+61.580	state		release
+61.632	event	timer	timer_event
+61.684	state		release
+61.736	event	timer	timer_event
+61.742	print	task	0.133185
+61.793	state		release
+61.845	event	timer	timer_event
+61.897	state		release
+61.949	event	timer	timer_event
+62.001	state		release
+62.053	event	timer	timer_event
+62.105	state		release
+62.157	event	timer	timer_event
+62.163	print	task	0.1167424
+62.214	state		release
+62.266	event	timer	timer_event
+62.318	state		release
+62.370	event	timer	timer_event
+62.422	state		release
+62.474	event	timer	timer_event
+62.526	state		release
+62.578	event	timer	timer_event
+62.584	print	task	0.1333345
+62.635	state		release
+62.687	event	timer	timer_event
+62.739	state		release
+62.791	event	timer	timer_event
+62.843	state		release
+62.895	event	timer	timer_event
+62.947	state		release
+62.999	event	timer	timer_event
+63.006	print	task	0.1225347
+63.056	state		release
+63.108	event	timer	timer_event
+63.160	state		release
+63.212	event	timer	timer_event
+63.264	state		release
+63.316	event	timer	timer_event
+63.368	state		release
+63.420	event	timer	timer_event
+63.426	print	task	0.1473854
+63.477	state		release
+63.529	event	timer	timer_event
+63.581	state		release
+63.633	event	timer	timer_event
+63.685	state		release
+63.737	event	timer	timer_event
+63.789	state		release
+63.841	event	timer	timer_event
+63.847	print	task	0.1506739
+63.898	state		release
+63.950	event	timer	timer_event
+64.003	state		release
+64.055	event	timer	timer_event
+64.107	state		release
+64.159	event	timer	timer_event
+64.211	state		release
+64.263	event	timer	timer_event
+64.269	print	task	0.1524677
+64.370	state		post_release
+64.377	variable	print	{"poke": "A3", "release_duration": 50, "n_release": 104, "release_weight": 0.1551583}
+64.477	state		pre_release
+64.584	state		release
+64.636	event	timer	timer_event
+64.688	state		release
+64.740	event	timer	timer_event
+64.792	state		release
+64.844	event	timer	timer_event
+64.896	state		release
+64.948	event	timer	timer_event
+64.954	print	task	0.004932761
+65.005	state		release
+65.057	event	timer	timer_event
+65.109	state		release
+65.161	event	timer	timer_event
+65.213	state		release
+65.265	event	timer	timer_event
+65.317	state		release
+65.369	event	timer	timer_event
+65.375	print	task	0.06861043
+65.426	state		release
+65.478	event	timer	timer_event
+65.530	state		release
+65.582	event	timer	timer_event
+65.634	state		release
+65.686	event	timer	timer_event
+65.738	state		release
+65.790	event	timer	timer_event
+65.796	print	task	0.0831098
+65.847	state		release
+65.899	event	timer	timer_event
+65.951	state		release
+66.003	event	timer	timer_event
+66.056	state		release
+66.108	event	timer	timer_event
+66.160	state		release
+66.212	event	timer	timer_event
+66.218	print	task	0.1108754
+66.269	state		release
+66.321	event	timer	timer_event
+66.373	state		release
+66.425	event	timer	timer_event
+66.477	state		release
+66.529	event	timer	timer_event
+66.581	state		release
+66.633	event	timer	timer_event
+66.639	print	task	0.136623
+66.690	state		release
+66.742	event	timer	timer_event
+66.794	state		release
+66.846	event	timer	timer_event
+66.898	state		release
+66.950	event	timer	timer_event
+67.003	state		release
+67.055	event	timer	timer_event
+67.061	print	task	0.1871466
+67.112	state		release
+67.164	event	timer	timer_event
+67.216	state		release
+67.268	event	timer	timer_event
+67.320	state		release
+67.372	event	timer	timer_event
+67.424	state		release
+67.476	event	timer	timer_event
+67.482	print	task	0.2286642
+67.583	state		post_release
+67.590	variable	print	{"poke": "B1", "release_duration": 50, "n_release": 28, "release_weight": 0.2384176}
+67.690	state		pre_release
+67.797	state		release
+67.849	event	timer	timer_event
+67.901	state		release
+67.953	event	timer	timer_event
+68.005	state		release
+68.057	event	timer	timer_event
+68.109	state		release
+68.161	event	timer	timer_event
+68.167	print	task	0.007567346
+68.218	state		release
+68.270	event	timer	timer_event
+68.322	state		release
+68.374	event	timer	timer_event
+68.426	state		release
+68.478	event	timer	timer_event
+68.530	state		release
+68.582	event	timer	timer_event
+68.588	print	task	0.04792643
+68.639	state		release
+68.691	event	timer	timer_event
+68.743	state		release
+68.795	event	timer	timer_event
+68.847	state		release
+68.899	event	timer	timer_event
+68.951	state		release
+69.003	event	timer	timer_event
+69.009	print	task	0.08544546
+69.060	state		release
+69.112	event	timer	timer_event
+69.164	state		release
+69.216	event	timer	timer_event
+69.268	state		release
+69.320	event	timer	timer_event
+69.372	state		release
+69.424	event	timer	timer_event
+69.430	print	task	0.1150421
+69.481	state		release
+69.533	event	timer	timer_event
+69.585	state		release
+69.637	event	timer	timer_event
+69.689	state		release
+69.741	event	timer	timer_event
+69.793	state		release
+69.845	event	timer	timer_event
+69.851	print	task	0.1344743
+69.902	state		release
+69.954	event	timer	timer_event
+70.006	state		release
+70.058	event	timer	timer_event
+70.110	state		release
+70.162	event	timer	timer_event
+70.214	state		release
+70.266	event	timer	timer_event
+70.272	print	task	0.2083725
+70.373	state		post_release
+70.380	variable	print	{"poke": "B2", "release_duration": 50, "n_release": 24, "release_weight": 0.1806631}
+70.480	state		pre_release
+70.587	state		release
+70.639	event	timer	timer_event
+70.691	state		release
+70.743	event	timer	timer_event
+70.795	state		release
+70.847	event	timer	timer_event
+70.904	state		release
+70.956	event	timer	timer_event
+70.963	print	task	0.02352405
+71.013	state		release
+71.065	event	timer	timer_event
+71.117	state		release
+71.169	event	timer	timer_event
+71.221	state		release
+71.273	event	timer	timer_event
+71.325	state		release
+71.377	event	timer	timer_event
+71.383	print	task	0.06048262
+71.434	state		release
+71.486	event	timer	timer_event
+71.538	state		release
+71.590	event	timer	timer_event
+71.642	state		release
+71.694	event	timer	timer_event
+71.746	state		release
+71.798	event	timer	timer_event
+71.804	print	task	0.1334279
+71.855	state		release
+71.907	event	timer	timer_event
+71.959	state		release
+72.011	event	timer	timer_event
+72.063	state		release
+72.115	event	timer	timer_event
+72.167	state		release
+72.219	event	timer	timer_event
+72.225	print	task	0.1574938
+72.276	state		release
+72.328	event	timer	timer_event
+72.380	state		release
+72.432	event	timer	timer_event
+72.484	state		release
+72.536	event	timer	timer_event
+72.588	state		release
+72.640	event	timer	timer_event
+72.647	print	task	0.1996467
+72.697	state		release
+72.749	event	timer	timer_event
+72.801	state		release
+72.853	event	timer	timer_event
+72.905	state		release
+72.957	event	timer	timer_event
+73.009	state		release
+73.061	event	timer	timer_event
+73.067	print	task	0.2231147
+73.168	state		post_release
+73.175	variable	print	{"poke": "B3", "release_duration": 50, "n_release": 24, "release_weight": 0.2398189}
+73.275	state		pre_release
+73.382	state		release
+73.434	event	timer	timer_event
+73.486	state		release
+73.538	event	timer	timer_event
+73.590	state		release
+73.642	event	timer	timer_event
+73.694	state		release
+73.746	event	timer	timer_event
+73.752	print	task	0.06651783
+73.803	state		release
+73.855	event	timer	timer_event
+73.907	state		release
+73.959	event	timer	timer_event
+74.011	state		release
+74.063	event	timer	timer_event
+74.115	state		release
+74.167	event	timer	timer_event
+74.173	print	task	0.05725014
+74.224	state		release
+74.276	event	timer	timer_event
+74.328	state		release
+74.380	event	timer	timer_event
+74.432	state		release
+74.484	event	timer	timer_event
+74.536	state		release
+74.588	event	timer	timer_event
+74.594	print	task	0.1143508
+74.645	state		release
+74.697	event	timer	timer_event
+74.749	state		release
+74.801	event	timer	timer_event
+74.853	state		release
+74.905	event	timer	timer_event
+74.957	state		release
+75.009	event	timer	timer_event
+75.015	print	task	0.1546725
+75.066	state		release
+75.118	event	timer	timer_event
+75.170	state		release
+75.222	event	timer	timer_event
+75.274	state		release
+75.326	event	timer	timer_event
+75.378	state		release
+75.430	event	timer	timer_event
+75.436	print	task	0.1846055
+75.487	state		release
+75.539	event	timer	timer_event
+75.591	state		release
+75.643	event	timer	timer_event
+75.695	state		release
+75.747	event	timer	timer_event
+75.802	state		release
+75.854	event	timer	timer_event
+75.861	print	task	0.2357271
+75.961	state		post_release
+75.968	variable	print	{"poke": "C1", "release_duration": 50, "n_release": 24, "release_weight": 0.1955734}
+76.068	state		pre_release
+76.175	state		release
+76.227	event	timer	timer_event
+76.279	state		release
+76.331	event	timer	timer_event
+76.383	state		release
+76.435	event	timer	timer_event
+76.487	state		release
+76.539	event	timer	timer_event
+76.545	print	task	0.004334927
+76.596	state		release
+76.648	event	timer	timer_event
+76.700	state		release
+76.752	event	timer	timer_event
+76.804	state		release
+76.856	event	timer	timer_event
+76.908	state		release
+76.960	event	timer	timer_event
+76.966	print	task	0.008725882
+77.017	state		release
+77.069	event	timer	timer_event
+77.121	state		release
+77.173	event	timer	timer_event
+77.225	state		release
+77.277	event	timer	timer_event
+77.329	state		release
+77.381	event	timer	timer_event
+77.387	print	task	0.03288519
+77.438	state		release
+77.490	event	timer	timer_event
+77.542	state		release
+77.594	event	timer	timer_event
+77.646	state		release
+77.698	event	timer	timer_event
+77.750	state		release
+77.802	event	timer	timer_event
+77.808	print	task	0.05306482
+77.859	state		release
+77.911	event	timer	timer_event
+77.963	state		release
+78.015	event	timer	timer_event
+78.067	state		release
+78.119	event	timer	timer_event
+78.171	state		release
+78.223	event	timer	timer_event
+78.229	print	task	0.05880105
+78.280	state		release
+78.332	event	timer	timer_event
+78.384	state		release
+78.436	event	timer	timer_event
+78.488	state		release
+78.540	event	timer	timer_event
+78.592	state		release
+78.644	event	timer	timer_event
+78.650	print	task	0.08624887
+78.701	state		release
+78.753	event	timer	timer_event
+78.805	state		release
+78.857	event	timer	timer_event
+78.909	state		release
+78.961	event	timer	timer_event
+79.013	state		release
+79.065	event	timer	timer_event
+79.071	print	task	0.08983636
+79.122	state		release
+79.174	event	timer	timer_event
+79.226	state		release
+79.278	event	timer	timer_event
+79.330	state		release
+79.382	event	timer	timer_event
+79.434	state		release
+79.486	event	timer	timer_event
+79.492	print	task	0.09028482
+79.543	state		release
+79.595	event	timer	timer_event
+79.647	state		release
+79.699	event	timer	timer_event
+79.751	state		release
+79.803	event	timer	timer_event
+79.855	state		release
+79.907	event	timer	timer_event
+79.913	print	task	0.1153972
+79.964	state		release
+80.016	event	timer	timer_event
+80.068	state		release
+80.120	event	timer	timer_event
+80.172	state		release
+80.224	event	timer	timer_event
+80.276	state		release
+80.328	event	timer	timer_event
+80.334	print	task	0.1355393
+80.385	state		release
+80.437	event	timer	timer_event
+80.489	state		release
+80.541	event	timer	timer_event
+80.593	state		release
+80.645	event	timer	timer_event
+80.700	state		release
+80.752	event	timer	timer_event
+80.759	print	task	0.1505245
+80.809	state		release
+80.861	event	timer	timer_event
+80.913	state		release
+80.965	event	timer	timer_event
+81.017	state		release
+81.069	event	timer	timer_event
+81.121	state		release
+81.173	event	timer	timer_event
+81.179	print	task	0.1762347
+81.230	state		release
+81.282	event	timer	timer_event
+81.334	state		release
+81.386	event	timer	timer_event
+81.438	state		release
+81.490	event	timer	timer_event
+81.542	state		release
+81.594	event	timer	timer_event
+81.600	print	task	0.1953679
+81.651	state		release
+81.703	event	timer	timer_event
+81.755	state		release
+81.807	event	timer	timer_event
+81.859	state		release
+81.911	event	timer	timer_event
+81.963	state		release
+82.015	event	timer	timer_event
+82.021	print	task	0.2070272
+82.122	state		post_release
+82.129	variable	print	{"poke": "C2", "release_duration": 50, "n_release": 56, "release_weight": 0.1801212}
+82.229	state		pre_release
+82.336	state		release
+82.388	event	timer	timer_event
+82.440	state		release
+82.492	event	timer	timer_event
+82.544	state		release
+82.596	event	timer	timer_event
+82.648	state		release
+82.700	event	timer	timer_event
+82.706	print	task	0.03163326
+82.757	state		release
+82.809	event	timer	timer_event
+82.861	state		release
+82.913	event	timer	timer_event
+82.965	state		release
+83.017	event	timer	timer_event
+83.069	state		release
+83.121	event	timer	timer_event
+83.127	print	task	0.07004917
+83.178	state		release
+83.230	event	timer	timer_event
+83.282	state		release
+83.334	event	timer	timer_event
+83.386	state		release
+83.438	event	timer	timer_event
+83.490	state		release
+83.542	event	timer	timer_event
+83.548	print	task	0.04493678
+83.599	state		release
+83.651	event	timer	timer_event
+83.703	state		release
+83.755	event	timer	timer_event
+83.807	state		release
+83.859	event	timer	timer_event
+83.911	state		release
+83.963	event	timer	timer_event
+83.969	print	task	0.05734348
+84.020	state		release
+84.072	event	timer	timer_event
+84.124	state		release
+84.176	event	timer	timer_event
+84.228	state		release
+84.280	event	timer	timer_event
+84.332	state		release
+84.384	event	timer	timer_event
+84.390	print	task	0.06989968
+84.441	state		release
+84.493	event	timer	timer_event
+84.545	state		release
+84.597	event	timer	timer_event
+84.649	state		release
+84.701	event	timer	timer_event
+84.753	state		release
+84.805	event	timer	timer_event
+84.811	print	task	0.1046346
+84.862	state		release
+84.914	event	timer	timer_event
+84.966	state		release
+85.018	event	timer	timer_event
+85.070	state		release
+85.122	event	timer	timer_event
+85.174	state		release
+85.226	event	timer	timer_event
+85.232	print	task	0.1172842
+85.283	state		release
+85.335	event	timer	timer_event
+85.387	state		release
+85.439	event	timer	timer_event
+85.491	state		release
+85.543	event	timer	timer_event
+85.595	state		release
+85.647	event	timer	timer_event
+85.654	print	task	0.1296909
+85.704	state		release
+85.756	event	timer	timer_event
+85.808	state		release
+85.860	event	timer	timer_event
+85.912	state		release
+85.964	event	timer	timer_event
+86.016	state		release
+86.068	event	timer	timer_event
+86.074	print	task	0.1220301
+86.125	state		release
+86.177	event	timer	timer_event
+86.229	state		release
+86.281	event	timer	timer_event
+86.333	state		release
+86.385	event	timer	timer_event
+86.437	state		release
+86.489	event	timer	timer_event
+86.495	print	task	0.1488241
+86.546	state		release
+86.598	event	timer	timer_event
+86.650	state		release
+86.702	event	timer	timer_event
+86.754	state		release
+86.806	event	timer	timer_event
+86.858	state		release
+86.910	event	timer	timer_event
+86.916	print	task	0.1548033
+86.967	state		release
+87.019	event	timer	timer_event
+87.071	state		release
+87.123	event	timer	timer_event
+87.175	state		release
+87.227	event	timer	timer_event
+87.279	state		release
+87.331	event	timer	timer_event
+87.337	print	task	0.1444893
+87.388	state		release
+87.440	event	timer	timer_event
+87.492	state		release
+87.544	event	timer	timer_event
+87.596	state		release
+87.648	event	timer	timer_event
+87.700	state		release
+87.752	event	timer	timer_event
+87.758	print	task	0.2057753
+87.859	state		post_release
+87.866	variable	print	{"poke": "C3", "release_duration": 50, "n_release": 52, "release_weight": 0.1731516}
+87.966	state		calibration_init
+87.966	print	task	Ready to calibrate release duration: 100, press go.
+124.528	event	user	go
+124.528	state		pre_release
+124.633	state		release
+124.733	event	timer	timer_event
+124.783	state		release
+124.883	event	timer	timer_event
+124.933	state		release
+125.033	event	timer	timer_event
+125.083	state		release
+125.183	event	timer	timer_event
+125.187	print	task	0.09148062
+125.237	state		release
+125.337	event	timer	timer_event
+125.387	state		release
+125.487	event	timer	timer_event
+125.537	state		release
+125.637	event	timer	timer_event
+125.687	state		release
+125.787	event	timer	timer_event
+125.791	print	task	0.2042992
+125.891	state		post_release
+125.896	variable	print	{"poke": "A1", "release_duration": 100, "n_release": 8, "release_weight": 0.1334839}
+125.996	state		pre_release
+126.103	state		release
+126.205	event	timer	timer_event
+126.257	state		release
+126.359	event	timer	timer_event
+126.411	state		release
+126.513	event	timer	timer_event
+126.565	state		release
+126.667	event	timer	timer_event
+126.673	print	task	0.1058304
+126.724	state		release
+126.826	event	timer	timer_event
+126.878	state		release
+126.980	event	timer	timer_event
+127.032	state		release
+127.134	event	timer	timer_event
+127.186	state		release
+127.288	event	timer	timer_event
+127.295	print	task	0.1869969
+127.345	state		release
+127.447	event	timer	timer_event
+127.499	state		release
+127.601	event	timer	timer_event
+127.653	state		release
+127.755	event	timer	timer_event
+127.807	state		release
+127.909	event	timer	timer_event
+127.915	print	task	0.2889411
+128.016	state		post_release
+128.023	variable	print	{"poke": "A2", "release_duration": 100, "n_release": 12, "release_weight": 0.2366238}
+128.123	state		pre_release
+128.230	state		release
+128.332	event	timer	timer_event
+128.384	state		release
+128.486	event	timer	timer_event
+128.538	state		release
+128.640	event	timer	timer_event
+128.692	state		release
+128.794	event	timer	timer_event
+128.800	print	task	0.0587821
+128.851	state		release
+128.953	event	timer	timer_event
+129.005	state		release
+129.107	event	timer	timer_event
+129.159	state		release
+129.261	event	timer	timer_event
+129.313	state		release
+129.415	event	timer	timer_event
+129.421	print	task	0.0380609
+129.472	state		release
+129.574	event	timer	timer_event
+129.626	state		release
+129.728	event	timer	timer_event
+129.780	state		release
+129.882	event	timer	timer_event
+129.934	state		release
+130.036	event	timer	timer_event
+130.042	print	task	0.08852839
+130.093	state		release
+130.195	event	timer	timer_event
+130.247	state		release
+130.349	event	timer	timer_event
+130.401	state		release
+130.503	event	timer	timer_event
+130.555	state		release
+130.657	event	timer	timer_event
+130.663	print	task	0.07343102
+130.714	state		release
+130.816	event	timer	timer_event
+130.868	state		release
+130.970	event	timer	timer_event
+131.022	state		release
+131.124	event	timer	timer_event
+131.176	state		release
+131.278	event	timer	timer_event
+131.284	print	task	0.101346
+131.335	state		release
+131.437	event	timer	timer_event
+131.489	state		release
+131.591	event	timer	timer_event
+131.643	state		release
+131.745	event	timer	timer_event
+131.797	state		release
+131.899	event	timer	timer_event
+131.905	print	task	0.106914
+131.956	state		release
+132.058	event	timer	timer_event
+132.110	state		release
+132.212	event	timer	timer_event
+132.264	state		release
+132.366	event	timer	timer_event
+132.418	state		release
+132.520	event	timer	timer_event
+132.526	print	task	0.1128933
+132.577	state		release
+132.679	event	timer	timer_event
+132.731	state		release
+132.833	event	timer	timer_event
+132.885	state		release
+132.987	event	timer	timer_event
+133.039	state		release
+133.141	event	timer	timer_event
+133.147	print	task	0.1258979
+133.198	state		release
+133.300	event	timer	timer_event
+133.352	state		release
+133.454	event	timer	timer_event
+133.506	state		release
+133.608	event	timer	timer_event
+133.660	state		release
+133.762	event	timer	timer_event
+133.768	print	task	0.1806068
+133.819	state		release
+133.921	event	timer	timer_event
+133.973	state		release
+134.075	event	timer	timer_event
+134.127	state		release
+134.229	event	timer	timer_event
+134.284	state		release
+134.386	event	timer	timer_event
+134.393	print	task	0.1880808
+134.443	state		release
+134.545	event	timer	timer_event
+134.597	state		release
+134.699	event	timer	timer_event
+134.751	state		release
+134.853	event	timer	timer_event
+134.905	state		release
+135.007	event	timer	timer_event
+135.013	print	task	0.2287014
+135.114	state		post_release
+135.121	variable	print	{"poke": "A3", "release_duration": 100, "n_release": 44, "release_weight": 0.2022812}
+135.221	state		pre_release
+135.328	state		release
+135.430	event	timer	timer_event
+135.482	state		release
+135.584	event	timer	timer_event
+135.636	state		release
+135.738	event	timer	timer_event
+135.790	state		release
+135.892	event	timer	timer_event
+135.898	print	task	0.1200683
+135.949	state		release
+136.051	event	timer	timer_event
+136.103	state		release
+136.205	event	timer	timer_event
+136.257	state		release
+136.359	event	timer	timer_event
+136.411	state		release
+136.513	event	timer	timer_event
+136.519	print	task	0.1867356
+136.570	state		release
+136.672	event	timer	timer_event
+136.724	state		release
+136.826	event	timer	timer_event
+136.878	state		release
+136.980	event	timer	timer_event
+137.032	state		release
+137.134	event	timer	timer_event
+137.140	print	task	0.2748902
+137.241	state		post_release
+137.248	variable	print	{"poke": "B1", "release_duration": 100, "n_release": 12, "release_weight": 0.2457795}
+137.348	state		pre_release
+137.455	state		release
+137.557	event	timer	timer_event
+137.609	state		release
+137.711	event	timer	timer_event
+137.763	state		release
+137.865	event	timer	timer_event
+137.917	state		release
+138.019	event	timer	timer_event
+138.025	print	task	0.1329234
+138.076	state		release
+138.178	event	timer	timer_event
+138.230	state		release
+138.332	event	timer	timer_event
+138.384	state		release
+138.486	event	timer	timer_event
+138.538	state		release
+138.640	event	timer	timer_event
+138.646	print	task	0.2241051
+138.747	state		post_release
+138.754	variable	print	{"poke": "B2", "release_duration": 100, "n_release": 8, "release_weight": 0.1430879}
+138.854	state		pre_release
+138.961	state		release
+139.063	event	timer	timer_event
+139.115	state		release
+139.217	event	timer	timer_event
+139.269	state		release
+139.371	event	timer	timer_event
+139.423	state		release
+139.525	event	timer	timer_event
+139.531	print	task	0.1022429
+139.582	state		release
+139.684	event	timer	timer_event
+139.736	state		release
+139.838	event	timer	timer_event
+139.890	state		release
+139.992	event	timer	timer_event
+140.044	state		release
+140.146	event	timer	timer_event
+140.152	print	task	0.1718998
+140.203	state		release
+140.305	event	timer	timer_event
+140.357	state		release
+140.459	event	timer	timer_event
+140.511	state		release
+140.613	event	timer	timer_event
+140.665	state		release
+140.767	event	timer	timer_event
+140.773	print	task	0.2796736
+140.874	state		post_release
+140.881	variable	print	{"poke": "B3", "release_duration": 100, "n_release": 12, "release_weight": 0.2309997}
+140.981	state		pre_release
+141.092	state		release
+141.194	event	timer	timer_event
+141.246	state		release
+141.348	event	timer	timer_event
+141.400	state		release
+141.502	event	timer	timer_event
+141.554	state		release
+141.656	event	timer	timer_event
+141.662	print	task	0.1355765
+141.713	state		release
+141.815	event	timer	timer_event
+141.867	state		release
+141.969	event	timer	timer_event
+142.021	state		release
+142.123	event	timer	timer_event
+142.175	state		release
+142.277	event	timer	timer_event
+142.283	print	task	0.2168553
+142.384	state		post_release
+142.391	variable	print	{"poke": "C1", "release_duration": 100, "n_release": 8, "release_weight": 0.2028418}
+142.491	state		pre_release
+142.598	state		release
+142.700	event	timer	timer_event
+142.752	state		release
+142.854	event	timer	timer_event
+142.906	state		release
+143.008	event	timer	timer_event
+143.060	state		release
+143.162	event	timer	timer_event
+143.168	print	task	0.06651759
+143.219	state		release
+143.321	event	timer	timer_event
+143.373	state		release
+143.475	event	timer	timer_event
+143.527	state		release
+143.629	event	timer	timer_event
+143.681	state		release
+143.783	event	timer	timer_event
+143.789	print	task	0.09790802
+143.840	state		release
+143.942	event	timer	timer_event
+143.994	state		release
+144.096	event	timer	timer_event
+144.148	state		release
+144.250	event	timer	timer_event
+144.302	state		release
+144.404	event	timer	timer_event
+144.410	print	task	0.1406589
+144.461	state		release
+144.563	event	timer	timer_event
+144.615	state		release
+144.717	event	timer	timer_event
+144.769	state		release
+144.871	event	timer	timer_event
+144.923	state		release
+145.025	event	timer	timer_event
+145.031	print	task	0.1973109
+145.082	state		release
+145.184	event	timer	timer_event
+145.236	state		release
+145.338	event	timer	timer_event
+145.390	state		release
+145.492	event	timer	timer_event
+145.544	state		release
+145.646	event	timer	timer_event
+145.652	print	task	0.2346807
+145.753	state		post_release
+145.760	variable	print	{"poke": "C2", "release_duration": 100, "n_release": 20, "release_weight": 0.2014964}
+145.860	state		pre_release
+145.967	state		release
+146.069	event	timer	timer_event
+146.121	state		release
+146.223	event	timer	timer_event
+146.275	state		release
+146.377	event	timer	timer_event
+146.429	state		release
+146.531	event	timer	timer_event
+146.537	print	task	0.01300454
+146.588	state		release
+146.690	event	timer	timer_event
+146.742	state		release
+146.844	event	timer	timer_event
+146.896	state		release
+146.998	event	timer	timer_event
+147.050	state		release
+147.152	event	timer	timer_event
+147.158	print	task	0.07040429
+147.209	state		release
+147.311	event	timer	timer_event
+147.363	state		release
+147.465	event	timer	timer_event
+147.517	state		release
+147.619	event	timer	timer_event
+147.671	state		release
+147.773	event	timer	timer_event
+147.779	print	task	0.08370781
+147.830	state		release
+147.932	event	timer	timer_event
+147.984	state		release
+148.086	event	timer	timer_event
+148.141	state		release
+148.243	event	timer	timer_event
+148.295	state		release
+148.397	event	timer	timer_event
+148.404	print	task	0.1248143
+148.454	state		release
+148.556	event	timer	timer_event
+148.608	state		release
+148.710	event	timer	timer_event
+148.762	state		release
+148.864	event	timer	timer_event
+148.916	state		release
+149.018	event	timer	timer_event
+149.024	print	task	0.1297472
+149.075	state		release
+149.177	event	timer	timer_event
+149.229	state		release
+149.331	event	timer	timer_event
+149.383	state		release
+149.485	event	timer	timer_event
+149.537	state		release
+149.639	event	timer	timer_event
+149.645	print	task	0.1665187
+149.696	state		release
+149.798	event	timer	timer_event
+149.850	state		release
+149.952	event	timer	timer_event
+150.004	state		release
+150.106	event	timer	timer_event
+150.158	state		release
+150.260	event	timer	timer_event
+150.266	print	task	0.2014592
+150.367	state		post_release
+150.374	variable	print	{"poke": "C3", "release_duration": 100, "n_release": 28, "release_weight": 0.219135}
+150.474	state		calibration_init
+150.474	print	task	Ready to calibrate release duration: 150, press go.
+180.937	event	user	go
+180.937	state		pre_release
+181.042	state		release
+181.192	event	timer	timer_event
+181.242	state		release
+181.392	event	timer	timer_event
+181.442	state		release
+181.592	event	timer	timer_event
+181.642	state		release
+181.792	event	timer	timer_event
+181.796	print	task	0.1476471
+181.846	state		release
+181.996	event	timer	timer_event
+182.046	state		release
+182.196	event	timer	timer_event
+182.246	state		release
+182.396	event	timer	timer_event
+182.446	state		release
+182.596	event	timer	timer_event
+182.600	print	task	0.2946212
+182.700	state		post_release
+182.705	variable	print	{"poke": "A1", "release_duration": 150, "n_release": 8, "release_weight": 0.2559063}
+182.805	state		pre_release
+182.912	state		release
+183.064	event	timer	timer_event
+183.116	state		release
+183.268	event	timer	timer_event
+183.320	state		release
+183.472	event	timer	timer_event
+183.524	state		release
+183.676	event	timer	timer_event
+183.682	print	task	0.1972547
+183.733	state		release
+183.885	event	timer	timer_event
+183.937	state		release
+184.089	event	timer	timer_event
+184.141	state		release
+184.293	event	timer	timer_event
+184.345	state		release
+184.497	event	timer	timer_event
+184.503	print	task	0.375134
+184.604	state		post_release
+184.611	variable	print	{"poke": "A2", "release_duration": 150, "n_release": 8, "release_weight": 0.2876515}
+184.711	state		pre_release
+184.818	state		release
+184.970	event	timer	timer_event
+185.022	state		release
+185.174	event	timer	timer_event
+185.226	state		release
+185.378	event	timer	timer_event
+185.433	state		release
+185.585	event	timer	timer_event
+185.592	print	task	0.01076269
+185.642	state		release
+185.794	event	timer	timer_event
+185.846	state		release
+185.998	event	timer	timer_event
+186.050	state		release
+186.202	event	timer	timer_event
+186.254	state		release
+186.406	event	timer	timer_event
+186.412	print	task	0.03497791
+186.463	state		release
+186.615	event	timer	timer_event
+186.667	state		release
+186.819	event	timer	timer_event
+186.871	state		release
+187.023	event	timer	timer_event
+187.075	state		release
+187.227	event	timer	timer_event
+187.233	print	task	0.05426073
+187.284	state		release
+187.436	event	timer	timer_event
+187.488	state		release
+187.640	event	timer	timer_event
+187.692	state		release
+187.844	event	timer	timer_event
+187.896	state		release
+188.048	event	timer	timer_event
+188.054	print	task	0.0817647
+188.105	state		release
+188.257	event	timer	timer_event
+188.309	state		release
+188.461	event	timer	timer_event
+188.513	state		release
+188.665	event	timer	timer_event
+188.717	state		release
+188.869	event	timer	timer_event
+188.875	print	task	0.1382675
+188.926	state		release
+189.078	event	timer	timer_event
+189.130	state		release
+189.282	event	timer	timer_event
+189.334	state		release
+189.486	event	timer	timer_event
+189.538	state		release
+189.690	event	timer	timer_event
+189.696	print	task	0.1346798
+189.747	state		release
+189.899	event	timer	timer_event
+189.951	state		release
+190.103	event	timer	timer_event
+190.155	state		release
+190.307	event	timer	timer_event
+190.359	state		release
+190.511	event	timer	timer_event
+190.517	print	task	0.1665187
+190.568	state		release
+190.720	event	timer	timer_event
+190.772	state		release
+190.924	event	timer	timer_event
+190.976	state		release
+191.128	event	timer	timer_event
+191.180	state		release
+191.332	event	timer	timer_event
+191.338	print	task	0.2290006
+191.439	state		post_release
+191.446	variable	print	{"poke": "A3", "release_duration": 150, "n_release": 32, "release_weight": 0.1958165}
+191.546	state		pre_release
+191.653	state		release
+191.805	event	timer	timer_event
+191.857	state		release
+192.009	event	timer	timer_event
+192.061	state		release
+192.213	event	timer	timer_event
+192.265	state		release
+192.417	event	timer	timer_event
+192.423	print	task	0.125113
+192.474	state		release
+192.626	event	timer	timer_event
+192.678	state		release
+192.830	event	timer	timer_event
+192.882	state		release
+193.034	event	timer	timer_event
+193.086	state		release
+193.238	event	timer	timer_event
+193.244	print	task	0.2680702
+193.345	state		post_release
+193.352	variable	print	{"poke": "B1", "release_duration": 150, "n_release": 8, "release_weight": 0.2301965}
+193.452	state		pre_release
+193.559	state		release
+193.711	event	timer	timer_event
+193.763	state		release
+193.915	event	timer	timer_event
+193.967	state		release
+194.119	event	timer	timer_event
+194.171	state		release
+194.323	event	timer	timer_event
+194.329	print	task	0.1727967
+194.380	state		release
+194.537	event	timer	timer_event
+194.589	state		release
+194.741	event	timer	timer_event
+194.793	state		release
+194.945	event	timer	timer_event
+194.997	state		release
+195.149	event	timer	timer_event
+195.155	print	task	0.2998533
+195.256	state		post_release
+195.263	variable	print	{"poke": "B2", "release_duration": 150, "n_release": 8, "release_weight": 0.2379694}
+195.363	state		pre_release
+195.470	state		release
+195.622	event	timer	timer_event
+195.674	state		release
+195.826	event	timer	timer_event
+195.878	state		release
+196.030	event	timer	timer_event
+196.082	state		release
+196.234	event	timer	timer_event
+196.240	print	task	0.1530657
+196.291	state		release
+196.443	event	timer	timer_event
+196.495	state		release
+196.647	event	timer	timer_event
+196.699	state		release
+196.851	event	timer	timer_event
+196.903	state		release
+197.055	event	timer	timer_event
+197.061	print	task	0.3086724
+197.162	state		post_release
+197.169	variable	print	{"poke": "B3", "release_duration": 150, "n_release": 8, "release_weight": 0.2460413}
+197.269	state		pre_release
+197.376	state		release
+197.528	event	timer	timer_event
+197.580	state		release
+197.732	event	timer	timer_event
+197.784	state		release
+197.936	event	timer	timer_event
+197.988	state		release
+198.140	event	timer	timer_event
+198.146	print	task	0.193574
+198.197	state		release
+198.349	event	timer	timer_event
+198.401	state		release
+198.553	event	timer	timer_event
+198.605	state		release
+198.757	event	timer	timer_event
+198.809	state		release
+198.961	event	timer	timer_event
+198.967	print	task	0.2985077
+199.068	state		post_release
+199.075	variable	print	{"poke": "C1", "release_duration": 150, "n_release": 8, "release_weight": 0.2432008}
+199.175	state		pre_release
+199.282	state		release
+199.434	event	timer	timer_event
+199.486	state		release
+199.638	event	timer	timer_event
+199.690	state		release
+199.842	event	timer	timer_event
+199.894	state		release
+200.046	event	timer	timer_event
+200.052	print	task	0.05975389
+200.103	state		release
+200.255	event	timer	timer_event
+200.307	state		release
+200.459	event	timer	timer_event
+200.511	state		release
+200.663	event	timer	timer_event
+200.715	state		release
+200.867	event	timer	timer_event
+200.873	print	task	0.1312418
+200.924	state		release
+201.076	event	timer	timer_event
+201.128	state		release
+201.280	event	timer	timer_event
+201.332	state		release
+201.484	event	timer	timer_event
+201.536	state		release
+201.688	event	timer	timer_event
+201.694	print	task	0.213604
+201.795	state		post_release
+201.802	variable	print	{"poke": "C2", "release_duration": 150, "n_release": 12, "release_weight": 0.1681628}
+201.902	state		pre_release
+202.009	state		release
+202.161	event	timer	timer_event
+202.213	state		release
+202.365	event	timer	timer_event
+202.417	state		release
+202.569	event	timer	timer_event
+202.621	state		release
+202.773	event	timer	timer_event
+202.779	print	task	0.02322531
+202.830	state		release
+202.982	event	timer	timer_event
+203.034	state		release
+203.186	event	timer	timer_event
+203.243	state		release
+203.395	event	timer	timer_event
+203.447	state		release
+203.599	event	timer	timer_event
+203.605	print	task	0.07858849
+203.656	state		release
+203.808	event	timer	timer_event
+203.860	state		release
+204.012	event	timer	timer_event
+204.064	state		release
+204.216	event	timer	timer_event
+204.268	state		release
+204.420	event	timer	timer_event
+204.426	print	task	0.1330357
+204.477	state		release
+204.629	event	timer	timer_event
+204.681	state		release
+204.833	event	timer	timer_event
+204.885	state		release
+205.037	event	timer	timer_event
+205.089	state		release
+205.241	event	timer	timer_event
+205.247	print	task	0.1678638
+205.298	state		release
+205.450	event	timer	timer_event
+205.502	state		release
+205.654	event	timer	timer_event
+205.706	state		release
+205.858	event	timer	timer_event
+205.910	state		release
+206.062	event	timer	timer_event
+206.068	print	task	0.2258615
+206.169	state		post_release
+206.176	variable	print	{"poke": "C3", "release_duration": 150, "n_release": 20, "release_weight": 0.1890898}
+206.276	state		calibration_init
+206.276	print	task	Ready to calibrate release duration: 200, press go.
+240.207	event	user	go
+240.207	state		pre_release
+240.312	state		release
+240.512	event	timer	timer_event
+240.562	state		release
+240.762	event	timer	timer_event
+240.812	state		release
+241.012	event	timer	timer_event
+241.062	state		release
+241.262	event	timer	timer_event
+241.266	print	task	0.1801209
+241.316	state		release
+241.516	event	timer	timer_event
+241.566	state		release
+241.766	event	timer	timer_event
+241.816	state		release
+242.016	event	timer	timer_event
+242.066	state		release
+242.266	event	timer	timer_event
+242.270	print	task	0.3781796
+242.370	state		post_release
+242.375	variable	print	{"poke": "A1", "release_duration": 200, "n_release": 8, "release_weight": 0.24051}
+242.475	state		pre_release
+242.582	state		release
+242.784	event	timer	timer_event
+242.836	state		release
+243.038	event	timer	timer_event
+243.090	state		release
+243.292	event	timer	timer_event
+243.344	state		release
+243.546	event	timer	timer_event
+243.552	print	task	0.1029906
+243.603	state		release
+243.805	event	timer	timer_event
+243.857	state		release
+244.059	event	timer	timer_event
+244.111	state		release
+244.313	event	timer	timer_event
+244.365	state		release
+244.567	event	timer	timer_event
+244.573	print	task	0.3422675
+244.674	state		post_release
+244.681	variable	print	{"poke": "A2", "release_duration": 200, "n_release": 8, "release_weight": 0.2669683}
+244.781	state		pre_release
+244.888	state		release
+245.090	event	timer	timer_event
+245.142	state		release
+245.344	event	timer	timer_event
+245.396	state		release
+245.598	event	timer	timer_event
+245.650	state		release
+245.852	event	timer	timer_event
+245.858	print	task	0.01543331
+245.909	state		release
+246.111	event	timer	timer_event
+246.163	state		release
+246.365	event	timer	timer_event
+246.417	state		release
+246.619	event	timer	timer_event
+246.671	state		release
+246.873	event	timer	timer_event
+246.879	print	task	0.06012726
+246.930	state		release
+247.132	event	timer	timer_event
+247.184	state		release
+247.386	event	timer	timer_event
+247.438	state		release
+247.640	event	timer	timer_event
+247.692	state		release
+247.894	event	timer	timer_event
+247.900	print	task	0.09106922
+247.951	state		release
+248.153	event	timer	timer_event
+248.205	state		release
+248.407	event	timer	timer_event
+248.459	state		release
+248.661	event	timer	timer_event
+248.713	state		release
+248.915	event	timer	timer_event
+248.921	print	task	0.1705918
+248.972	state		release
+249.174	event	timer	timer_event
+249.226	state		release
+249.428	event	timer	timer_event
+249.480	state		release
+249.682	event	timer	timer_event
+249.734	state		release
+249.936	event	timer	timer_event
+249.942	print	task	0.181952
+249.993	state		release
+250.195	event	timer	timer_event
+250.247	state		release
+250.449	event	timer	timer_event
+250.501	state		release
+250.703	event	timer	timer_event
+250.755	state		release
+250.957	event	timer	timer_event
+250.963	print	task	0.2302337
+251.064	state		post_release
+251.071	variable	print	{"poke": "A3", "release_duration": 200, "n_release": 24, "release_weight": 0.22545}
+251.171	state		pre_release
+251.278	state		release
+251.480	event	timer	timer_event
+251.532	state		release
+251.734	event	timer	timer_event
+251.786	state		release
+251.988	event	timer	timer_event
+252.040	state		release
+252.242	event	timer	timer_event
+252.248	print	task	0.1433496
+252.299	state		release
+252.501	event	timer	timer_event
+252.553	state		release
+252.755	event	timer	timer_event
+252.807	state		release
+253.009	event	timer	timer_event
+253.061	state		release
+253.263	event	timer	timer_event
+253.269	print	task	0.3327384
+253.370	state		post_release
+253.377	variable	print	{"poke": "B1", "release_duration": 200, "n_release": 8, "release_weight": 0.2529168}
+253.477	state		pre_release
+253.584	state		release
+253.786	event	timer	timer_event
+253.838	state		release
+254.040	event	timer	timer_event
+254.092	state		release
+254.294	event	timer	timer_event
+254.346	state		release
+254.548	event	timer	timer_event
+254.554	print	task	0.138454
+254.605	state		release
+254.807	event	timer	timer_event
+254.859	state		release
+255.061	event	timer	timer_event
+255.113	state		release
+255.315	event	timer	timer_event
+255.367	state		release
+255.569	event	timer	timer_event
+255.575	print	task	0.3215647
+255.676	state		post_release
+255.683	variable	print	{"poke": "B2", "release_duration": 200, "n_release": 8, "release_weight": 0.2713399}
+255.783	state		pre_release
+255.890	state		release
+256.092	event	timer	timer_event
+256.144	state		release
+256.346	event	timer	timer_event
+256.398	state		release
+256.600	event	timer	timer_event
+256.652	state		release
+256.857	event	timer	timer_event
+256.864	print	task	0.2128568
+256.964	state		post_release
+256.971	variable	print	{"poke": "B3", "release_duration": 200, "n_release": 4, "release_weight": 0.1237683}
+257.071	state		pre_release
+257.178	state		release
+257.380	event	timer	timer_event
+257.432	state		release
+257.634	event	timer	timer_event
+257.686	state		release
+257.888	event	timer	timer_event
+257.940	state		release
+258.142	event	timer	timer_event
+258.148	print	task	0.1885481
+258.199	state		release
+258.401	event	timer	timer_event
+258.453	state		release
+258.655	event	timer	timer_event
+258.707	state		release
+258.909	event	timer	timer_event
+258.961	state		release
+259.163	event	timer	timer_event
+259.169	print	task	0.372798
+259.270	state		post_release
+259.277	variable	print	{"poke": "C1", "release_duration": 200, "n_release": 8, "release_weight": 0.3389225}
+259.377	state		pre_release
+259.484	state		release
+259.686	event	timer	timer_event
+259.738	state		release
+259.940	event	timer	timer_event
+259.992	state		release
+260.194	event	timer	timer_event
+260.246	state		release
+260.448	event	timer	timer_event
+260.454	print	task	0.1189842
+260.505	state		release
+260.707	event	timer	timer_event
+260.759	state		release
+260.961	event	timer	timer_event
+261.013	state		release
+261.215	event	timer	timer_event
+261.267	state		release
+261.469	event	timer	timer_event
+261.475	print	task	0.2237692
+261.576	state		post_release
+261.583	variable	print	{"poke": "C2", "release_duration": 200, "n_release": 8, "release_weight": 0.1671162}
+261.683	state		pre_release
+261.790	state		release
+261.992	event	timer	timer_event
+262.044	state		release
+262.246	event	timer	timer_event
+262.298	state		release
+262.500	event	timer	timer_event
+262.552	state		release
+262.754	event	timer	timer_event
+262.760	print	task	0.06989956
+262.811	state		release
+263.013	event	timer	timer_event
+263.065	state		release
+263.267	event	timer	timer_event
+263.319	state		release
+263.521	event	timer	timer_event
+263.573	state		release
+263.775	event	timer	timer_event
+263.781	print	task	0.1172848
+263.832	state		release
+264.034	event	timer	timer_event
+264.086	state		release
+264.288	event	timer	timer_event
+264.340	state		release
+264.542	event	timer	timer_event
+264.594	state		release
+264.796	event	timer	timer_event
+264.802	print	task	0.1654167
+264.853	state		release
+265.055	event	timer	timer_event
+265.107	state		release
+265.309	event	timer	timer_event
+265.361	state		release
+265.563	event	timer	timer_event
+265.615	state		release
+265.817	event	timer	timer_event
+265.823	print	task	0.2090635
+265.924	state		post_release
+265.931	variable	print	{"poke": "C3", "release_duration": 200, "n_release": 16, "release_weight": 0.1993475}
+266.031	state		calibration_init
+266.031	print	task	Calibration finished
+266.031	variable	run_end	{"release_weight": 0.1993475, "calibration_weight": 6.5, "pokes": [], "batch_count": 4, "n_release_per_batch": 4, "times": 6, "pokes_to_calibrate": ["A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3"], "max_releases": 100, "pre_weight": -8.780419, "target_weight": 0.2, "n_release": 16, "release_duration": 200, "poke": "C3", "release_durations": []}
+266.032	info	end_time	2026-06-10T10:15:22.844
