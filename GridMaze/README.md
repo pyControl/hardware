@@ -9,3 +9,5 @@ The towers, walkways and floor of the maze are assembled from laser-cut plastic,
 The control electronics consist of a *maze_hub* PCB with a pyboard microcontroller running pyControl, a set of *maze_expander* PCBs each of which has 8 behaviour ports for connecting towers, and one *maze_poke* per tower with LED, speaker, IR beam and solenoid.  Up to 8 maze_expanders can be connected to one maze_hub allowing control of setups with up to 68 towers. 
 
 This repository contains design files for both the 3x3 version of the grid maze shown in the photo above and a larger 7x7 version of the apparatus.
+
+Assembled GridMaze hardware is available from [Labmaker](https://www.labmaker.org/collections/neuroscience/products/pycontrol-gridmaze)
