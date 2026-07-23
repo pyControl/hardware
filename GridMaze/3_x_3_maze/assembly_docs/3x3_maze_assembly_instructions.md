@@ -27,7 +27,7 @@ Assemble the base rails as shown in the photos below
 
 ![base_2](./media/base_2.jpg)
 
-Flip the base over and attach the bottom panels (note, bottom panel should be white).
+Flip the base over and attach the bottom panels (note, bottom panel should be white, not black as shown in photo).
 
 ![base_3](./media/base_3.jpg)
 
